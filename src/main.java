@@ -11,6 +11,7 @@ public class main{
 		ponai Ponai7 = new ponai();
 		ponai Ponai8 = new ponai();
 		ponai Ponai9 = new ponai();
+		ponai Ponai10 = new ponai();
 		doLoadPony(Ponai1,"Twilight","Sparkle",10,"mare");
 		doLoadPony(Ponai2,"Rainbow","Dash",10,"mare");
 		doLoadPony(Ponai3,"Pinkie","Pie",10,"mare");
@@ -19,7 +20,8 @@ public class main{
 		doLoadPony(Ponai6,"Rarity","",10,"mare");
 		doLoadPony(Ponai7,"Sweetie","Belle",5,"mare");
 		doLoadPony(Ponai8,"Apple","Bloom",5,"mare");
-		doLoadPony(Ponai1,"Scootaloo","",5,"mare");
+		doLoadPony(Ponai9,"Scootaloo","",5,"mare");
+		doLoadPony(Ponai10,"Carrot","Top",10,"mare");
 	}
 	
 	public static ponai doLoadPony(ponai Ponai, String firstname, String lastname, int age, String gender){
