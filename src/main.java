@@ -2,26 +2,16 @@ public class main{
 	public static void main(String[] args){
 		//Todo: Random name generation
 		//Finish writing all 2 million entries.
-		ponai Ponai1 = new ponai();
-		ponai Ponai2 = new ponai();
-		ponai Ponai3 = new ponai();
-		ponai Ponai4 = new ponai();
-		ponai Ponai5 = new ponai();
-		ponai Ponai6 = new ponai();
-		ponai Ponai7 = new ponai();
-		ponai Ponai8 = new ponai();
-		ponai Ponai9 = new ponai();
-		ponai Ponai10 = new ponai();
-		doLoadPony(Ponai1,"Twilight","Sparkle",10,"mare");
-		doLoadPony(Ponai2,"Rainbow","Dash",10,"mare");
-		doLoadPony(Ponai3,"Pinkie","Pie",10,"mare");
-		doLoadPony(Ponai4,"Fluttershy","",10,"mare");
-		doLoadPony(Ponai5,"Applejack","",10,"mare");
-		doLoadPony(Ponai6,"Rarity","",10,"mare");
-		doLoadPony(Ponai7,"Sweetie","Belle",5,"mare");
-		doLoadPony(Ponai8,"Apple","Bloom",5,"mare");
-		doLoadPony(Ponai9,"Scootaloo","",5,"mare");
-		doLoadPony(Ponai10,"Carrot","Top",10,"mare");
+		ponai Ponai1 = doLoadPony(Ponai1 = new ponai(),"Twilight","Sparkle",10,"mare");
+		ponai Ponai2 = doLoadPony(Ponai2 = new ponai(),"Rainbow","Dash",10,"mare");
+		ponai Ponai3 = doLoadPony(Ponai3 = new ponai(),"Pinkie","Pie",10,"mare");
+		ponai Ponai4 = doLoadPony(Ponai4 = new ponai(),"Fluttershy","",10,"mare");
+		ponai Ponai5 = doLoadPony(Ponai5 = new ponai(),"Applejack","",10,"mare");
+		ponai Ponai6 = doLoadPony(Ponai6 = new ponai(),"Rarity","",10,"mare");
+		ponai Ponai7 = doLoadPony(Ponai7 = new ponai(),"Sweetie","Belle",5,"mare");
+		ponai Ponai8 = doLoadPony(Ponai8 = new ponai(),"Apple","Bloom",5,"mare");
+		ponai Ponai9 = doLoadPony(Ponai9 = new ponai(),"Scootaloo","",5,"mare");
+		ponai Ponai10 = doLoadPony(Ponai10 = new ponai(),"Carrot","Top",10,"mare");
 	}
 	
 	public static ponai doLoadPony(ponai Ponai, String firstname, String lastname, int age, String gender){
