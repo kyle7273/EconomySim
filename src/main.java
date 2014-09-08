@@ -2,7 +2,8 @@ public class main{
 	public static void main(String[] args){
 		//Todo: Random name generation
 		//Finish writing all 2 million entries.
-		ponai Ponai1 = doLoadPony(Ponai1 = new ponai(),randomnamegen.randomFirstName(),randomnamegen.randomLastName(),10,"mare",1,1,1,1,"Librarian","Owner");
+		int randjobid = randomnamegen.randomJobID();
+		ponai Ponai1 = doLoadPony(Ponai1 = new ponai(),randomnamegen.randomFirstName(),randomnamegen.randomLastName(),10,"mare",randjobid,1,1,1,randomnamegen.getJobString(randjobid),"Owner");
 		//ponai Ponai2 = doLoadPony(Ponai2 = new ponai(),"Rainbow","Dash",10,"mare");
 		//ponai Ponai3 = doLoadPony(Ponai3 = new ponai(),"Pinkie","Pie",10,"mare");
 		//ponai Ponai4 = doLoadPony(Ponai4 = new ponai(),"Fluttershy","",10,"mare");
