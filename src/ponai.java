@@ -1,14 +1,6 @@
 public class ponai{
-	public String firstname;
-	public String lastname;
-	public int age;
-	public String gender;
-	public int jobID;
-	public int jobBuilding;
-	public int jobRoom;
-	public int jobPositionID;
-	public String jobString;
-	public String jobPositionString;
+	public String firstname, lastname, gender, jobString, jobPositionString;
+	public int age, jobID, jobBuilding, jobRoom, jobPositionID;
 	
 	public ponai(){
 		firstname = "Unnamed";
